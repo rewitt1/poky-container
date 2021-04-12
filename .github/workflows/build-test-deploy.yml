@@ -37,7 +37,7 @@ jobs:
 
       # Build and test the images
       - name: Run build-and-test.sh
-        run: ./build-and-test.sh
+        run: echo $STUFF
 
       # Deploy the images
       - name: Deploy
